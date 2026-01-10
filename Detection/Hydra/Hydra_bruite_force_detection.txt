@@ -1,4 +1,4 @@
-3. The Detection (Blue Team)
+1. The Detection (Blue Team)
 Telemetry Source: Windows Security Event Logs -> Splunk Event Code: 4625 (An account failed to log on)
 
 Splunk Query Used
@@ -21,7 +21,7 @@ Volume: 68 failed attempts recorded in under 2 minutes.
 
 Logon Type: 10 (Remote Interactive), confirming the attack vector was RDP.
 
-4. Mitigation & Response
+2. Mitigation & Response
 In a production environment, I would recommend:
 
 Account Lockout Policy: Automatically lock the vishavs account after 5 failed attempts (via Group Policy).
