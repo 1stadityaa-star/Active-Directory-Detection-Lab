@@ -11,4 +11,4 @@ I emulated an advanced adversary attempting to steal credentials by dumping the 
 
 **Command Executed:**
 ```powershell
-Invoke-AtomicTest T1003.001 -TestNumbers 13
+Invoke-AtomicTest T1003.001 
